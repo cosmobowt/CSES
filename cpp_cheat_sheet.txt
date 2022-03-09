@@ -1,0 +1,48 @@
+CPP EXECUTION COMMAND
+
+ g++ index.cpp -o index
+ ./index.exe                  
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPP CODE TEMPLATE
+
+#include <bits/stdc++.h>
+#define fu(i,n)  for(int i = 1; i <= n; i++)
+using namespace std;
+typedef long long int ll;
+typedef pair <int,int> P;
+typedef vector <int,int> V;
+typedef vector< pair <int,int> > VP
+
+int main()
+{
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPP LIBRARY
+
+vector< pair <int,int> > vect
+vect.push_back( make_pair(arr[i],arr1[i]) )
+vect[i].first 
+vect[i].second 
+
+Vectors:
+sort(v.begin(),v.end());
+sort(v.rbegin(),v.rend());
+reverse(v.begin(),v.end());
+*max_element(v.begin(),v.end());
+*mix_element(v.begin(),v.end());
+accumulate(v.begin(),v.end(), 0);
+count(v.begin(),v.end(),x);
+binary_search(v.begin(),v.end(),x);
+int uniqueCount = std::unique(vtwo.begin(), vtwo.end()) - vtwo.begin(); //make a vector unique
+
+Strings:
+int found = string.find(x, 0);
+while (found != string::npos) //npos is counter in string length
+
+//int to string
+to_string
+//string to int
+stoi
