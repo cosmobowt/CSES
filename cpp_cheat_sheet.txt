@@ -45,3 +45,6 @@ while (found != string::npos) //npos is counter in string length
 to_string
 //string to int
 stoi
+
+//swap values
+swap(a,b)
