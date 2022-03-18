@@ -22,7 +22,7 @@ int main()
 CPP LIBRARY
 
 vector< pair <int,int> > vect
-vect.push_back( make_pair(arr[i],arr1[i]) )
+vect.push_back( make_pair(i,j) )
 vect[i].first 
 vect[i].second 
 
