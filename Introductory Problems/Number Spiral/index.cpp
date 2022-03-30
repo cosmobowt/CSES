@@ -37,7 +37,8 @@ int main()
             }
             else
             {
-                cout << ((y[i] * y[i]) - y[i] + 1 - (y[i] - x[i])) << endl;
+                y[i]--;
+                cout << ((y[i] * y[i]) + x[i]) << endl;
             }
         }
     }
